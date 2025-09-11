@@ -1,0 +1,1 @@
+{"version":3,"file":"poupanca.d.ts","sourceRoot":"","sources":["../src/poupanca.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,YAAY,CAAC;AAE/B,cAAM,QAAS,SAAQ,KAAK;IACxB,OAAO,CAAC,cAAc,CAAS;gBAEnB,OAAO,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,cAAc,EAAE,MAAM;IAK3D,WAAW,IAAI,IAAI;CAI7B;AAED,eAAe,QAAQ,CAAC"}
