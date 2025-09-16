@@ -22,7 +22,7 @@ class Corrente extends Conta {
 
     public cobrarTaxa(): void {
         let taxa: number = this.getSaldo() * this.taxaManutencao;
-        console.log(`O ${this.getTitular()} foi cobrado ${this.taxaManutencao}% da sua conta corrente.`);
+        console.log(`O ${this.getTitular()} foi cobrado por ${this.taxaManutencao}% na sua conta corrente.`);
         this.setSaldo((this.getSaldo() - taxa));
     }
 }
