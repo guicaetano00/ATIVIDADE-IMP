@@ -1,4 +1,4 @@
-abstract class Conta {
+class Conta {
     private titular: string;
     private saldo: number;
 
@@ -34,12 +34,12 @@ abstract class Conta {
     public sacar(valor: number): void {
         console.log(this.saldo.toFixed(2));
         if (this.saldo >= valor) {
-            console.log(`O ${this.titular} sacou ${valor} do banco`);
+            console.log(`O ${this.titular} vai sacar ${valor} do banco`);
             this.saldo -= valor;
         } else {
             console.log(`Você não tem saldo suficiente`);
         }
-        console.log(`O saldo do cliente ${this.titular} é de R$${this.saldo}.`);
+        console.log(`O saldo do cliente ${this.titular} é de R$${this.saldo} na conta.`);
     }
 
     public recuperarSaldo(): number {
